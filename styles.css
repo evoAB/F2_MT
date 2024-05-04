@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #CDCDCD;
+}
+
+h3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+#heading {
+    background-color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+img{
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.keyButton:focus{
+    outline: none;
+}
+
+.keyButton.selected{
+    background-color: #007bff;
+    color: white;
+}

@@ -23,7 +23,7 @@ function updateData(data){
         let isPass = element.passing===true ? "Passed":"Failed";
 
         tr.innerHTML=`<td>${element.id}</td>
-        <td id="name"><img src="${element.img_src}">${element.first_name} ${element.last_name}</td>
+        <td id="name"><img src="${element.img_src}"> ${element.first_name} ${element.last_name}</td>
         <td id="gender">${element.gender}</td>
         <td id="class">${element.class}</td>
         <td id="marks">${element.marks}</td>
